@@ -5,6 +5,8 @@ $(document).ready(function() {
   //const hobby = $("#favHobby").val();
   //const color = $("#favColor").val();
   //const season = $("#favSeason").val();
+  //const type = $("input:radio[name=sunSign]:checked").val();
+
 
   const type = $("#jobStyle").val();
 

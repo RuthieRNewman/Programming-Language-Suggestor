@@ -12,13 +12,17 @@ $(document).ready(function() {
 
   if (type === "creative") {
     $(".userName").append(nameInput);
-    $("#javaScript").show();
     $("#bestLang").show();
+    $("#javaScript").show();
     $("#python, #ruby").hide();
   } else if (type === "analytical") {
+    $(".userName").append(nameInput);
+    $("#bestLang").show();
     $("#python").show(); 
     $("#javaScript, #ruby").hide();
   } else {
+    $(".userName").append(nameInput);
+    $("#bestLang").show();
     $("#ruby").show(); 
     $("#javaScript, #python").hide();
   }

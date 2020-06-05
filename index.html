@@ -17,10 +17,51 @@
     <div>
       <form id="survey">
         <div class="form-group">
+          <label for="birthDate">Enter your date of birth:</label>
+          <input id="birthDate" class="form-control" type="date">
+        </div>
+
+        <div class="form-group">
           <label for="favHobby">What is your favorite hobby?</label>
           <input id="favHobby" class="form-control" type="text">
-        </div>   
-        
+        </div>  
+
+        <div class ="form-group">
+          <label for="favSeason">What is your favorite season?</label>
+            <select class="form-control" id="favSeason">
+              <option>Summer</option>
+              <option>Fall</option>
+              <option>Winter</option>
+              <option>Spring</option>
+            </select>
+      </div>
+
+      <div class ="form-group">
+        <label for="jobType">Which job type to do your prefer?</label>
+          <div class="radio">
+            <label>
+              <input type="radio" name="jobType" value="creative" checked>
+              Creative
+            </label> 
+          </div>
+
+      <div class="radio">
+        <label>
+          <input type="radio" name="jobType" value="analytical">
+          Analytical
+        </label>
+      </div>
+      
+      <div class="radio">
+        <label>
+          <input type="radio" name="jobType" value="logical">
+          Logical
+        </label>
+      </div>
+
+
+        </div>
+
       </form>
         
     </div>

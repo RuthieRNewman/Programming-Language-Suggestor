@@ -13,5 +13,11 @@
 }
 
 .btn {
-  display: block;
+  background-color: yellow;
+  border:2px black;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
 }

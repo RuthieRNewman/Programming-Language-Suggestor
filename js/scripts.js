@@ -12,10 +12,6 @@ $(document).ready(function(){
     $("#javaScript").show();
   }
 
-  
-  
-  
-
   event.preventDefault();
   });
 }); 

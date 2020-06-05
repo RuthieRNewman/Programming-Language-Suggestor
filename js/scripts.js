@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $("#survey").submit(function(event) {
-  //const name = $("userName").val();  
+  const nameInput = $("#userName").val();  
   //const dob = $("#birthDate").val();
   //const hobby = $("#favHobby").val();
   //const color = $("#favColor").val();
@@ -11,7 +11,9 @@ $(document).ready(function() {
   const type = $("#jobStyle").val();
 
   if (type === "creative") {
+    $(".userName").append(nameInput);
     $("#javaScript").show();
+    $("#bestLang").show();
     $("#python, #ruby").hide();
   } else if (type === "analytical") {
     $("#python").show(); 

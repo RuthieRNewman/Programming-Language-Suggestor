@@ -1,5 +1,6 @@
 $(document).ready(function() {
   $("#survey").submit(function(event) {
+  //const name = $("userName").val();  
   //const dob = $("#birthDate").val();
   //const hobby = $("#favHobby").val();
   //const color = $("#favColor").val();

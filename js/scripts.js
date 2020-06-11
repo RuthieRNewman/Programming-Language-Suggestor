@@ -6,25 +6,24 @@ $(document).ready(function() {
   //const color = $("#favColor").val();
   //const season = $("#favSeason").val();
   //const type = $("input:radio[name=sunSign]:checked").val();
+  $("#python, #ruby, #javaScript").hide();
+  $("#bestLang").show();
 
 
   const type = $("#jobStyle").val();
 
   if (type === "creative") {
-    $(".userName").append(nameInput);
-    $("#bestLang").show();
+    $(".userName").text(nameInput);
     $("#javaScript").show();
-    $("#python, #ruby").hide();
+    
   } else if (type === "analytical") {
-    $(".userName").append(nameInput);
-    $("#bestLang").show();
+    $(".userName").text(nameInput);
     $("#python").show(); 
-    $("#javaScript, #ruby").hide();
+    
   } else {
-    $(".userName").append(nameInput);
-    $("#bestLang").show();
+    $(".userName").text(nameInput);
     $("#ruby").show(); 
-    $("#javaScript, #python").hide();
+    
   }
 
   event.preventDefault();

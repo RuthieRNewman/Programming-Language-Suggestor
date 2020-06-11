@@ -13,11 +13,12 @@ This site was created to meet the standards of an independent project assignment
 
 ## Setup/Installation Requirements
 
-###To Setup:
+### To Setup:
 
   1. Clone the repository from GitHub. 
 
-      *You can find the site's Github repository at RuthieRNewman at https://github.com/RuthieRNewman/Programming-Language-Suggestor.git
+      * You can find the site's Github repository at RuthieRNewman at: 
+        https://github.com/RuthieRNewman/Programming-Language-Suggestor.git
 
   2. Open the repository in a text editor, such as VS Code or Atom. 
 
@@ -46,6 +47,6 @@ Bootstrap
 
 ### License
 
-*This software is licensed under the MIT license
+* This software is licensed under the MIT license
 
 Copyright (c) 2020 **Ruthie Newman**

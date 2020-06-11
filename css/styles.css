@@ -1,4 +1,11 @@
 
+h2{
+  margin: 0px;
+  margin-bottom: 50px;
+  padding: 4px;
+  font-family: sans-serif;
+  color: deepskyblue;
+}
 
 #javaScript{
   display: none;

@@ -6,7 +6,10 @@
 
 ## Description
 
-This site was created to meet the standards of an independent project assignment in the Epicodus curriculum. It was created to display the student's understanding of how to write functions using Javascript and jQuery, gather user input using Javascript and jQuery forms, store user input in variables, utilize branching to return results and style the webpage using Bootstrap and custom CSS.   
+This site was created to meet the standards of an independent project assignment in the Epicodus curriculum. It was created to display the student's understanding of how to write functions using Javascript and jQuery, gather user input using Javascript and jQuery forms, store user input in variables, utilize branching to return results and style the webpage using Bootstrap and custom CSS. 
+
+[Click here](https://ruthiernewman.github.io/Programming-Language-Suggestor) to view this page live on gh-pages.
+
 
 ## Setup/Installation Requirements
 
